@@ -1,0 +1,30 @@
+module github.com/99designs/gqlgen
+
+go 1.26.0
+
+require (
+	github.com/coder/websocket v1.8.15
+	github.com/go-viper/mapstructure/v2 v2.5.0
+	github.com/goccy/go-yaml v1.19.2
+	github.com/google/uuid v1.6.0
+	github.com/hashicorp/golang-lru/v2 v2.0.7
+	github.com/logrusorgru/aurora/v4 v4.0.0
+	github.com/mattn/go-colorable v0.1.16
+	github.com/mattn/go-isatty v0.0.24
+	github.com/sosodev/duration v1.4.0
+	github.com/stretchr/testify v1.12.1
+	github.com/urfave/cli/v3 v3.14.0
+	github.com/vektah/gqlparser/v2 v2.5.64
+	golang.org/x/net v0.61.0
+	golang.org/x/sync v0.24.0
+	golang.org/x/text v0.43.0
+	golang.org/x/tools v0.52.0
+	google.golang.org/protobuf v1.36.12
+)
+
+require (
+	github.com/agnivade/levenshtein v1.2.2 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
+	golang.org/x/mod v0.42.0 // indirect
+	golang.org/x/sys v0.49.0 // indirect
+)
